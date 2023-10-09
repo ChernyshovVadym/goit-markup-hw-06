@@ -64,7 +64,7 @@ button {
 
 
 .container {
-    max-width: 320px;
+    width: 320px;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -72,13 +72,13 @@ button {
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 768px;
+        width: 768px;
     }
 }
 
 @media screen and (min-width: 1158px) {
     .container {
-        max-width: 1158px;
+        width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -496,14 +496,11 @@ button {
 .our-team {
     color: #2E2F42;
     text-align: center;
-    /* Header 2 */
-    font-family: 'Roboto',
-        sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
     margin-bottom: 72px;
@@ -512,16 +509,38 @@ button {
 
 .specialists {
     display: flex;
-    gap: 24px;
+    gap: 72px;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (min-width:1158px) {
+    .specialists {
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+    }
 }
 
 
 .color-class {
+    flex-basis: 264px;
     background: #FFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+@media screen and (min-width:768px) {
+    .color-class {}
+}
+
+@media screen and (min-width:1158px) {
+    .color-class {
+        gap: 24px;
+    }
 }
 
 .img {
@@ -534,7 +553,7 @@ button {
 }
 
 .description {
-    display: none;
+    /* display: none; */
 }
 
 
