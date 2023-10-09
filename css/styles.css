@@ -518,7 +518,8 @@ button {
 
 @media screen and (min-width:1158px) {
     .specialists {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: nowrap;
         gap: 72px;
         align-items: center;
     }
@@ -551,10 +552,6 @@ button {
 .description {
     padding-top: 32px;
     padding-bottom: 32px;
-}
-
-.description {
-    /* display: none; */
 }
 
 
