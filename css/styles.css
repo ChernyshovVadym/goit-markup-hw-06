@@ -483,14 +483,22 @@ button {
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
-
 }
+
+@media screen and (min-width:1158px) {
+    .color-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+}
+
 
 .our-team {
     color: #2E2F42;
     text-align: center;
     /* Header 2 */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',
+        sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -523,8 +531,12 @@ button {
 .description {
     padding-top: 32px;
     padding-bottom: 32px;
-
 }
+
+.description {
+    display: none;
+}
+
 
 
 .employee-names {
