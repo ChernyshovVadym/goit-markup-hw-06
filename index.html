@@ -120,7 +120,8 @@
                 <h2 class="our-team">Our Team</h2>
                 <ul class="specialists">
                     <li class="color-class">
-                        <img class="img" src="./images/Mark.jpg" alt="Mark Guerrero" width="264">
+                        <img class="img" srcset="./images/Mark.jpg 1x, ./images/mark@2x-min.jpg 2x"
+                            src="./images/Mark.jpg" alt="Mark Guerrero" width="264">
                         <div class="description">
                             <h3 class="employee-names">Mark Guerrero</h3>
                             <p class="job-title">Product Designer</p>
@@ -157,7 +158,8 @@
                         </div>
                     </li>
                     <li class="color-class">
-                        <img class="img" src="./images/Tom.jpg" alt="Tom Ford" width="264">
+                        <img class="img" srcset="./images/Tom.jpg 1x, ./images/tom@2x-min.jpg 2x" src="./images/Tom.jpg"
+                            alt="Tom Ford" width="264">
                         <div class="description">
                             <h3 class="employee-names">Tom Ford</h3>
                             <p class="job-title">Frontend Developer</p>
@@ -194,7 +196,8 @@
                         </div>
                     </li>
                     <li class="color-class">
-                        <img class="img" src="./images/Camila.jpg" alt="Camila Garcia" width="264">
+                        <img class="img" srcset="./images/Camila.jpg 1x, ./images/camila@2x-min.jpg 2x"
+                            src="./images/Camila.jpg" alt="Camila Garcia" width="264">
                         <div class="description">
                             <h3 class="employee-names">Camila Garcia</h3>
                             <p class="job-title">Marketing</p>
@@ -231,7 +234,8 @@
                         </div>
                     </li>
                     <li class="color-class">
-                        <img class="img" src="./images/Daniel.jpg" alt="Daniel Wilson" width="264">
+                        <img class="img" srcset="./images/Daniel.jpg 1x, ./images/daniel@2x-min.jpg 2x"
+                            src="./images/Daniel.jpg" alt="Daniel Wilson" width="264">
                         <div class="description">
                             <h3 class="employee-names">Daniel Wilson</h3>
                             <p class="job-title">UI Designer</p>
@@ -336,7 +340,7 @@
                             <picture>
                                 <source srcset="
                                                     ./images/Meditation.jpg    1x,
-                                                    ./images/img-3@2x-min.jpg 2x
+                                                    ./images/desktop/img-3@2x-min.jpg 2x
                                                   " media="(min-width: 1158px)" />
                                 <source srcset="
                                                     ./images/tablet/img-3-min.jpg    1x,
@@ -417,7 +421,7 @@
                             <picture>
                                 <source srcset="
                                                 ./images/Online.jpg    1x,
-                                                ./images/img-6@2x-min.jpg 2x
+                                                ./images/desktop/img-6@2x-min.jpg 2x
                                               " media="(min-width: 1158px)" />
                                 <source srcset="
                                                 ./images/tablet/img-6-min.jpg    1x,
@@ -453,7 +457,7 @@
                     marketing
                     & growth solutions.</p>
             </div>
-            <div>
+            <div class="social-media-footer">
                 <p class="social-list">Social media</p>
                 <ul class="social-item-list">
                     <li class="social-item">
@@ -503,12 +507,74 @@
         </div>
     </footer>
 
+    <div class="mobile-menu">
+        <button class="send" type="button">
+            <svg class="icon-modal" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <ul class="">
+            <li class="mobile-item">
+                <a class="mobile-link active">Studio</a>
+            </li>
+            <li class="mobile-item">
+                <a class="mobile-link">Portfolio</a>
+            </li>
+            <li class="mobile-item">
+                <a class="mobile-link">Contacts</a>
+            </li>
+        </ul>
+        <div class="mobile-box">
+            <address class="mobile-address">
+                <ul class="">
+                    <li class="mobile-contact-li">
+                        <a class="mobile-contact-link active-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                    <li class="mobile-contact">
+                        <a class="mobile-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+            </address>
+            <ul class="social-item-list mobile-social">
+                <li class="social-item">
+                    <a class="media" href="./index.html">
+                        <svg class="link" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="media" href="./index.html">
+                        <svg class="link" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="media" href="./index.html">
+                        <svg class="link" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a class="media" href="./index.html">
+                        <svg class="link" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
     <!-- Modal -->
-    <!-- <div class="modal">
+    <div class="modal">
         <div class="modal-window">
             <button class="send" type="button">
                 <svg class="icon-modal" width="8" height="8">
-                    <use href="./images/icon2.svg#icon-close"></use>
+                    <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
             <p class="info-modal">Leave your contacts and we will call you back</p>
@@ -518,7 +584,7 @@
                     <div class="uzer-name">
                         <input class="text-name" id="user-name" type="text" name="user-name">
                         <svg class="user-text-name" width="18" height="24">
-                            <use href="./images/icon2.svg#icon-name"></use>
+                            <use href="./images/icons.svg#icon-person"></use>
                         </svg>
                     </div>
                 </div>
@@ -542,8 +608,8 @@
                 </div>
                 <div class="name name-wrap">
                     <label class="name-info" for="user-comment">Comment</label>
-                    <textarea class="textarea-madal" id="user-comment" name="user-comment" placeholder="Text input">
-                    </textarea>
+                    <textarea class="textarea-madal" id="user-comment" name="user-comment"
+                        placeholder="Text input"></textarea>
                 </div>
                 <div class="policy">
                     <input class="input-policy visually-hidden" id="user-privacy" type="checkbox" value="true"
@@ -551,16 +617,18 @@
                     <label class="user-privacy" for="user-privacy">
                         <span class="privacy">
                             <svg class="user-text-name" width="10" height="8">
-                                <use href="./images/icon2.svg#icon-Checkbox"></use>
+                                <use href="./images/icons.svg#icon-check"></use>
                             </svg>
                         </span>
-                        " I accept the terms and conditions of the "
-                        <a class="privacy-policy" href="">Privacy Policy</a>
+                        <span>
+                            I accept the terms and conditions of the
+                            <a class="privacy-policy" href="">Privacy Policy</a>
+                        </span>
                     </label>
                 </div>
                 <button class="button-send">Send</button>
-            </form> -->
-    </div>
+            </form>
+        </div>
     </div>
 </body>
 
