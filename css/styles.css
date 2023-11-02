@@ -406,13 +406,11 @@ button {
 
 .soft-skils {
     color: #2E2F42;
-    /* Header 3 */
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.11;
-    /* 120% */
     letter-spacing: 0.4px;
     margin-bottom: 8px;
     text-align: center;
@@ -570,13 +568,11 @@ button {
 .employee-names {
     color: #2E2F42;
     text-align: center;
-    /* Header 3 */
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    /* 120% */
     letter-spacing: 0.4px;
     margin-bottom: 8px;
 }
@@ -585,13 +581,11 @@ button {
     color: #434455;
     text-align: center;
     background-color: #FFFFFF;
-    /* Body */
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.32px;
     margin-bottom: 8px;
 }
@@ -646,13 +640,11 @@ button {
 .our-portfolio {
     color: #2E2F42;
     text-align: center;
-    /* Header 2 */
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
     margin-bottom: 72px;
@@ -940,8 +932,6 @@ button {
 .mail {}
 
 
-
-
 .input-subscribe {
     color: #ffffff;
     width: 264px;
@@ -1030,9 +1020,6 @@ button {
         width: 288px;
     }
 }
-
-
-
 
 .send {
     position: absolute;
